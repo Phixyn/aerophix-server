@@ -1,0 +1,20 @@
+{
+  "name": "aerophix-server",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Proxy server for requests to external APIs requiring a service account.",
+  "scripts": {
+    "start": "node src/app.js",
+    "develop": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Phixyn/aerophix-server.git"
+  },
+  "author": "Phixyn",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Phixyn/aerophix-server/issues"
+  },
+  "homepage": "https://github.com/Phixyn/aerophix-server#readme"
+}
