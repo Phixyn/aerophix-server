@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "Proxy server for requests to external APIs requiring a service account.",
+  "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
     "develop": "nodemon src/app.js"
@@ -18,6 +19,9 @@
   },
   "homepage": "https://github.com/Phixyn/aerophix-server#readme",
   "dependencies": {
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1"
   },
   "devDependencies": {
